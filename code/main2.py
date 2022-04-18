@@ -1,5 +1,6 @@
 import mpmath as mp
-
+import numpy as np
+import matplotlib.pyplot as plt
 #a lies between 0 and pi/2 
 a=float(input())
 x=1/mp.cos(a)
