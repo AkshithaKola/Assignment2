@@ -20,5 +20,5 @@ plt.plot(a,z,color='green',label = 'return values of the given function')
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.legend(loc="upper left")
-
+plt.annotate("y=1", (0.7, 1.002), textcoords = "data", ha = 'center')
 plt.show()
